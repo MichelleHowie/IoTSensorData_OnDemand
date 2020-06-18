@@ -4,7 +4,7 @@
 :Revision: version#2
 :License: Public Domain
 
-= Project: {IoTSensorData_OnDemand}
+= Project: IoT Sensor Data On Demand
 
 This project allows you to request sensor data on demand from your IoT device.
 
@@ -18,8 +18,6 @@ We validate the data to match specific key words (which sensor do you want data 
 See the over all flow architecture: https://github.com/MichelleHowie/IoTSensorData_OnDemand/blob/master/IoTSensorData_OnDemand%20nodered%20flow%20diagram.png
 
 === Requirements: 
-
-* 
 
 Using the NB IOT network with a Telstra SIM, the MKR NB 1500 can be contacted from almost anywhere in Australia.
 You can send the data requests remotely.
