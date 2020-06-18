@@ -19,7 +19,18 @@ See the over all flow architecture: https://github.com/MichelleHowie/IoTSensorDa
 
 === Requirements: 
 
-* 
+https://dev.telstra.com/iot-marketplace/arduino-mkr-nb-1500[Arduino MKR NB 1500 board] 
+
+Arduino ENV Sensor shield
+
+https://dev.telstra.com/content/what-connectivity-included-arduino-mkr-nb-1500-telstradev-iot-marketplace[CATM1-IoT Network]
+
+https://dev.telstra.com/content/messaging-api[TelstraDev Messaging API]
+
+https://nodered.org/docs/getting-started/ibmcloud[IBM Cloud NodeRed]
+
+https://www.ibm.com/cloud/watson-iot-platform[Watson IoT Broker]
+
 
 Using the NB IOT network with a Telstra SIM, the MKR NB 1500 can be contacted from almost anywhere in Australia.
 You can send the data requests remotely.
