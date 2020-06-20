@@ -132,7 +132,7 @@ BEFORE Deploying the NodeRed flow, make sure you have provisioned a mobile numbe
 Take note of this number, as it is the address for you to text your sensor data requests to.
 
 
-== Step 4: Prepare Arduino Sketch
+== Step 5: Prepare Arduino Sketch
 
 Download the Arduino sketch https://github.com/MichelleHowie/IoTSensorData_OnDemand/tree/master/Environmental_Sensor_Data_Push
 
@@ -142,7 +142,7 @@ Connect your env sensor shield
 
 Upload the code contained in this sketch on to your board
 
-== Step 5: Deploy and Test!
+== Step 6: Deploy and Test!
 Deploy the NodeRed Flow
 
 Send a text to your virtual number requesting sensor data. 
