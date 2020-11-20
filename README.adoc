@@ -16,6 +16,7 @@ The requested sensor data is processed in NodeRed flow and composed in an SMS ba
 We validate the data to match specific key words (which sensor do you want data from).
 
 See the over all flow architecture: https://github.com/MichelleHowie/IoTSensorData_OnDemand/blob/master/IoTSensorData_OnDemand%20nodered%20flow%20diagram.png
+This workshop was recorded live at Call for Code JUne 2020: https://video.ibm.com/channel/23832688/video/cfc2020-telstradev-iotworkshop 
 
 === Requirements: 
 
