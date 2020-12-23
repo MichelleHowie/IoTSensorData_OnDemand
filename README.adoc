@@ -4,7 +4,7 @@
 :Revision: version#2
 :License: Public Domain
 
-= Project: {IoTSensorData_OnDemand}
+= Project: IoTSensorData_OnDemand
 
 This project allows you to request sensor data on demand from your IoT device.
 
@@ -16,7 +16,19 @@ The requested sensor data is processed in NodeRed flow and composed in an SMS ba
 We validate the data to match specific key words (which sensor do you want data from).
 
 See the over all flow architecture: https://github.com/MichelleHowie/IoTSensorData_OnDemand/blob/master/IoTSensorData_OnDemand%20nodered%20flow%20diagram.png
-This workshop was recorded live at Call for Code JUne 2020: https://video.ibm.com/channel/23832688/video/cfc2020-telstradev-iotworkshop 
+
+This workshop was recorded live at Call for Code June 2020: https://video.ibm.com/channel/23832688/video/cfc2020-telstradev-iotworkshop 
+
+Using the NB IOT network with a Telstra SIM, the MKR NB 1500 can be contacted from almost anywhere in Australia.
+You can send the data requests remotely.
+
+For part 1 of this workshop, to learn how to set up your Messaging API with node red and program the Arduino board, 
+See the video recap of this tutorial recorded at IBM's Call For Code May 2020 Hackathon:
+
+- Interact with your Arduino Kit Remotely (Git repo): https://github.com/MichelleHowie/IoTSensorData_OnDemand
+- Interact with your Arduino Kit Remotely (Video Tutorial): https://youtu.be/fcrxT9fyxZw 
+
+And part 3 where we use the Arduino MKR NB 1500 on Telstra's Cat-M1 network to alert when acceleration on the z axis is high (inferring a falling device!): https://github.com/MichelleHowie/Arduino-MKR-IMU-Fall-Detect
 
 === Requirements: 
 
@@ -33,11 +45,7 @@ https://nodered.org/docs/getting-started/ibmcloud[IBM Cloud NodeRed]
 https://www.ibm.com/cloud/watson-iot-platform[Watson IoT Broker]
 
 
-Using the NB IOT network with a Telstra SIM, the MKR NB 1500 can be contacted from almost anywhere in Australia.
-You can send the data requests remotely.
 
-For part 1 of this workshop, to learn how to set up your Messaging API with node red and program the Arduino board, 
-See the video recap of this tutorial recorded at IBM's Call For Code May 2020 Hackathon: https://video.ibm.com/recorded/126684032  
 
 == Step 1: Set-Up the Arduino Board
 To set-up your board, and connect to the NB IoT cellular network, 
